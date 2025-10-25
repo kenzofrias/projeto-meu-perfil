@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --fonte01: Arial, Helvetica, sans-serif;
+    --fonte02: "Space Mono", monospace;
+
+    --cor01: #e5f3ff;
+    --cor02: #0D5CDB;
+    --cor03: #355486;
+    --cor04: #33435C;
+    --cor05: #041735;
+    --cor06: #041735;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    
+    background-color: var(--cor01);
+    font-family: var(--fonte02,--fonte01);
+    color: var(--cor06);
+}
+
+header{
+    height: 200px;
+
+    background: var(--cor04) url(../medias/codigo-cabeçalho-cortado.png) left center no-repeat;
+    background-size: cover;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.277);
+
+    position: relative;
+}
+
+main{
+    padding: 10px 0px;
+
+    text-align: center;
+
+    /* height: 100vh; */
+    position: relative;
+}
+div#perfil{
+    height: 159px;
+    width: 100vw;
+
+    position: absolute;
+    top: -12vh;
+}
+div#perfil > section{
+    height: 159px;
+
+    text-align: center;
+}
+div#perfil section img{
+    width: 150px;
+
+    border-radius: 50%;
+    border: 4px solid var(--cor05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.277);
+}
+main h2{
+    font-weight: 500;
+    margin: 80px 0px 0px 0px;
+}
+main > p{
+    font-size: .7em;
+    margin-top: 5px;
+}
+
+div#minha-logo{
+    height: 50px;
+}
+div#bio{
+    margin: auto;
+    padding: 20px;
+
+    text-align: justify;
+    width: 50vw;
+}
+div#bio ul{
+    padding: 15px 10px 15px 50px;
+}
+div#bio a{
+    color: var(--cor06);
+    text-decoration: none;
+    font-weight: bolder;
+}
+div#bio a:hover{
+    color: var(--cor02);
+}
+div#redes{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    background-color: var(--cor01);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+    border-radius: 10px;
+
+    width: 400px;
+    text-align: center;
+}
+
+div#redes > a > img{
+    margin: 10px 25px;
+
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.332);
+}
+div#redes
+ > a > #img1{
+    border-radius: 50%;
+}
+div#redes
+ > a > #img2{
+    border-radius: 7px;
+}
+div#redes
+ > a > #img3{
+    border-radius: 18px;
+}
+div#redes
+ img:hover{
+    border: 2px solid var(--cor05);
+    transform: translate(-3px, 0px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.563);
+    transition: transform 0.3s, border .3s;
+}
+footer{
+    background-color: var(--cor05);
+
+    text-align: center;
+
+    padding: 10px;
+
+    color: var(--cor01);
+}
+
