@@ -82,7 +82,7 @@ div#bio{
     padding: 20px;
 
     text-align: justify;
-    width: 50vw;
+    width: 60vw;
 }
 div#bio ul{
     padding: 15px 10px 15px 50px;
@@ -104,7 +104,7 @@ div#redes{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
     border-radius: 10px;
 
-    width: 400px;
+    width: 300px;
     text-align: center;
 }
 
@@ -124,7 +124,7 @@ div#redes
 }
 div#redes
  > a > #img3{
-    border-radius: 18px;
+    border-radius: 12px;
 }
 div#redes
  img:hover{
