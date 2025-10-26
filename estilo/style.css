@@ -39,11 +39,10 @@ header{
 }
 
 main{
-    padding: 10px 0px;
-
     text-align: center;
 
-    /* height: 100vh; */
+    height: 100vh;
+    
     position: relative;
 }
 div#perfil{
@@ -114,25 +113,25 @@ div#redes > a > img{
     box-sizing: border-box;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.332);
 }
-div#redes
- > a > #img1{
+div#redes> a > #img1{
     border-radius: 50%;
 }
-div#redes
- > a > #img2{
+
+div#redes > a > #img2{
     border-radius: 7px;
 }
-div#redes
- > a > #img3{
+
+div#redes > a > #img3{
     border-radius: 12px;
 }
-div#redes
- img:hover{
+
+div#redes img:hover{
     border: 2px solid var(--cor05);
     transform: translate(-3px, 0px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.563);
     transition: transform 0.3s, border .3s;
 }
+
 footer{
     background-color: var(--cor05);
 
