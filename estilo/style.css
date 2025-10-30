@@ -40,8 +40,6 @@ header{
 
 main{
     text-align: center;
-
-    height: 100vh;
     
     position: relative;
 }
@@ -50,7 +48,7 @@ div#perfil{
     width: 100vw;
 
     position: absolute;
-    top: -12vh;
+    top: -22vh;
 }
 div#perfil > section{
     height: 159px;
@@ -97,7 +95,7 @@ div#bio a:hover{
 div#redes{
     margin: auto;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 
     background-color: var(--cor01);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
